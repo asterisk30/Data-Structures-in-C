@@ -1,0 +1,12 @@
+
+1.insert at front
+2.insert at end
+3.insert after element
+4.insert sorted
+5.delete from front
+6.delete from end
+7.delete specific element
+8.sort
+9.exit
+Enter choice : 8
+LIST : 2->5->99->

@@ -1,0 +1,4 @@
+gcc -c $1-def.c;
+gcc -c $1-main.c
+gcc  $1-def.o $1-main.o -o $1;
+./$1;

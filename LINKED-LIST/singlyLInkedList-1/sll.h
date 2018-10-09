@@ -2,7 +2,6 @@
 #include<stdlib.h>
 
 #define pf printf
-#define size 5
 #define sf scanf
 
 typedef struct 
@@ -12,8 +11,13 @@ typedef struct
 }node;
 
 node* createNode();
-void insertFront(node**);
-void insertRear(node**);
-void deleteFront(node**);
-void deleteRear(node**);
-void display(node**);
+
+node* insertFront(node*);
+node* insertRear(node*);
+node* insertAfter(node *);
+node* deleteFront(node *);
+node* deleteRear(node*);
+node* insertSorted(node *);
+node* deleteElement(node *);
+void sort(node*); 
+void display(node*);

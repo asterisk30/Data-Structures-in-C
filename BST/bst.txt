@@ -1,0 +1,151 @@
+Script started on 2018-09-25 22:25:58+0530
+asterisk30(master *)BST $. run bst
+
+EMPTY
+-
+preorder : 
+inorder : 
+postorder : 
+height of tree : -1 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 5
+
+5
+preorder : 5 
+inorder : 5 
+postorder : 5 
+height of tree : 0 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 1
+
+5(1,-)
+preorder : 5 1 
+inorder : 1 5 
+postorder : 1 5 
+height of tree : 1 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 3
+
+5(1(-,3),-)
+preorder : 5 1 3 
+inorder : 1 3 5 
+postorder : 3 1 5 
+height of tree : 2 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 8
+
+5(1(-,3),8)
+preorder : 5 1 3 8 
+inorder : 1 3 5 8 
+postorder : 3 1 8 5 
+height of tree : 2 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 4
+
+5(1(-,3(-,4)),8)
+preorder : 5 1 3 4 8 
+inorder : 1 3 4 5 8 
+postorder : 4 3 1 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 6
+
+5(1(-,3(-,4)),8(6,-))
+preorder : 5 1 3 4 8 6 
+inorder : 1 3 4 5 6 8 
+postorder : 4 3 1 6 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 9
+
+5(1(-,3(-,4)),8(6,9))
+preorder : 5 1 3 4 8 6 9 
+inorder : 1 3 4 5 6 8 9 
+postorder : 4 3 1 6 9 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 2
+
+5(1(-,3(2,4)),8(6,9))
+preorder : 5 1 3 2 4 8 6 9 
+inorder : 1 2 3 4 5 6 8 9 
+postorder : 2 4 3 1 6 9 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 7
+
+5(1(-,3(2,4)),8(6(-,7),9))
+preorder : 5 1 3 2 4 8 6 7 9 
+inorder : 1 2 3 4 5 6 7 8 9 
+postorder : 2 4 3 1 7 6 9 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 1
+enter element : 0
+
+5(1(0,3(2,4)),8(6(-,7),9))
+preorder : 5 1 0 3 2 4 8 6 7 9 
+inorder : 0 1 2 3 4 5 6 7 8 9 
+postorder : 0 2 4 3 1 7 6 9 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 2
+enter key to be searched : 9
+found 
+
+5(1(0,3(2,4)),8(6(-,7),9))
+preorder : 5 1 0 3 2 4 8 6 7 9 
+inorder : 0 1 2 3 4 5 6 7 8 9 
+postorder : 0 2 4 3 1 7 6 9 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 2
+enter key to be searched : 16
+not found 
+
+5(1(0,3(2,4)),8(6(-,7),9))
+preorder : 5 1 0 3 2 4 8 6 7 9 
+inorder : 0 1 2 3 4 5 6 7 8 9 
+postorder : 0 2 4 3 1 7 6 9 8 5 
+height of tree : 3 
+1.insert
+2.search
+3.exit
+enter choice : 3
+asterisk30(master *)BST $
+exit
+
+Script done on 2018-09-25 22:26:58+0530

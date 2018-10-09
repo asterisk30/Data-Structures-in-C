@@ -4,27 +4,35 @@ int main()
 {	node *head=NULL;
 	while(1)
 	{
-		system("clear");
+		//system("clear");
 		pf("LIST : ");
-		display(&head);
+		display(head);
 		int c;
 	
-		pf("1.insert at front\n2.insert at end\n3.delete from front\n4.delete from end\n5.display\n6.exit\nEnter choice : ");
+		pf("\n1.insert at front\n2.insert at end\n3.insert after element\n4.insert sorted\n5.delete from front\n6.delete from end\n7.delete specific element \n8.sort\n9.exit\nEnter choice : ");
 		sf("%d",&c);
 	
 		switch(c)
 		{
-			case 1 : insertFront(&head);
+			case 1 : head=insertFront(head);
 			break;
-			case 2 : insertRear(&head);
+			case 2 : head=insertRear(head);
 			break;
-			case 3 : deleteFront(&head);
+			case 3 :head=insertAfter(head);
 			break;
-			case 4 : deleteRear(&head);
+			case 4 : head=insertSorted(head);
 			break;
-			case 5 : display(&head);
+			case 5 : head=deleteFront(head);
 			break;
-			case 6 : return 0;
+			case 6 : head=deleteRear(head);
+			break;
+			case 7 : head=deleteElement(head);
+			break;
+			case 8 : sort(head);
+			break;
+			case 9 : return 0;
+			break;
+			
 			default : ("wrong entry\n");
 		}
 	};
