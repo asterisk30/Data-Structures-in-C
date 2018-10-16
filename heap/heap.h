@@ -6,8 +6,14 @@
 
 typedef struct 
 {
-    int arr[10];
+    int a[10];
     int size;
 }heap;
-void insert(int *,int);
+
+void insert(heap*);
+void swap(int *,int *);
+void maxheapify(int *,int ,int);
+void print(heap*);
+void sort(heap*);
+
 
