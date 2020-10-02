@@ -4,7 +4,7 @@
 #define MAX 10
 struct stack
 {
-    char array[MAX];
+    char arr[MAX];
 
     int top;
 };
